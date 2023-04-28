@@ -1,0 +1,222 @@
+[20230424.19:18:42.898:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 74036 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230424.19:18:42.903:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230424.19:18:42.941:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230424.19:18:42.941:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230424.19:18:44.120:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf9db37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.19:18:44.146:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8c7a2869] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.19:18:44.411:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230424.19:18:44.518:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1576 ms]
+[20230424.19:18:44.743:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230424.19:18:44.827:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230424.19:24:59.367:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 75012 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230424.19:24:59.369:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230424.19:24:59.405:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230424.19:24:59.405:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230424.19:25:00.597:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1479a6ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.19:25:00.623:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$93f9f400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.19:25:00.890:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230424.19:25:01.003:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1598 ms]
+[20230424.19:25:01.198:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230424.19:25:01.267:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230424.19:47:28.461:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 76822 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230424.19:47:28.463:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230424.19:47:28.511:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230424.19:47:28.511:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230424.19:47:29.720:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c8e9cb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.19:47:29.749:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1c0ee9e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.19:47:30.036:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230424.19:47:30.154:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1643 ms]
+[20230424.19:47:30.383:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230424.19:47:30.467:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230424.20:04:47.954:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 78464 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230424.20:04:47.956:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230424.20:04:47.981:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230424.20:04:47.981:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230424.20:04:48.950:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae99aa43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.20:04:48.972:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2e19f775] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.20:04:49.211:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230424.20:04:49.300:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1319 ms]
+[20230424.20:04:49.496:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230424.20:04:49.574:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230424.20:10:32.175:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 79215 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230424.20:10:32.177:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230424.20:10:32.210:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230424.20:10:32.210:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230424.20:10:33.183:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a1723a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.20:10:33.205:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d99770d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.20:10:33.424:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230424.20:10:33.506:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1295 ms]
+[20230424.20:10:33.716:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230424.20:10:33.798:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230424.20:17:46.317:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 79913 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230424.20:17:46.319:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230424.20:17:46.359:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230424.20:17:46.359:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230424.20:17:47.516:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$160ed55d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.20:17:47.543:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$958f228f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230424.20:17:47.824:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230424.20:17:47.942:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1583 ms]
+[20230424.20:17:48.138:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230424.20:17:48.211:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230426.19:01:02.422:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 15165 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230426.19:01:02.425:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230426.19:01:02.447:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[20230426.19:01:02.447:INFO ][restartedMain    ][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[20230426.19:01:03.357:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f91b175a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230426.19:01:03.374:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$789b648c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230426.19:01:03.622:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230426.19:01:03.707:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 1260 ms]
+[20230426.19:01:03.896:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230426.19:01:03.971:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
+[20230426.19:27:44.509:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][Starting SystemDevWebApiApplication on andres-GF65-Thin-10SDR with PID 16407 (/home/andres/Workspacesparlabs/system-dev-web-api/target/classes started by andres in /home/andres/Workspacesparlabs/system-dev-web-api)]
+[20230426.19:27:44.510:INFO ][restartedMain    ][org.parrolabs.api.systemdevwebapi.SystemDevWebApiApplication][No active profile set, falling back to default profiles: default]
+[20230426.19:27:44.881:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$daf77b76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230426.19:27:44.884:INFO ][restartedMain    ][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker][Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5a77c8a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[20230426.19:27:44.932:INFO ][restartedMain    ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][Tomcat initialized with port(s): 8081 (http)]
+[20230426.19:27:44.942:INFO ][restartedMain    ][org.springframework.web.context.ContextLoader][Root WebApplicationContext: initialization completed in 430 ms]
+[20230426.19:27:45.013:WARN ][restartedMain    ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class]
+[20230426.19:27:45.038:ERROR][restartedMain    ][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+]
